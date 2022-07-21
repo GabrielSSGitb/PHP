@@ -10,7 +10,7 @@
   <body>
  <div>
   <?php
-echo "<h1>Relacionais e Operador Unário:</h1>";
+echo "<h1>Relacionais e Operador Ternário:</h1>";
   $a = 20;
   $b = 9;
   $r = $a > $b ? $a * $b : $a / $b;
