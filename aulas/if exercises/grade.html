@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check a student grade</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+          .sendbtn {
+            background-color: black;
+            color: white;
+          }
+          .sendbtn:hover {
+            cursor: pointer;
+            background-color: blue;
+            border: none;
+            padding: 5px;
+          }
+    </style>
+</head>
+<body>
+    <div>
+        <form method="get" action="grade.php">
+            <label for="s1">Semester 1:</label>
+            <input type="number" name="s1" id="s1" placeholder="0">
+            <br>
+            <label for="s1">Semester 2:</label>
+            <input type="number" name="s2" id="s2" placeholder="0">
+            <br>
+            <input type="submit" value="Check Grade" class="sendbtn">
+        </form>
+    </div>
+</body>
+</html>
